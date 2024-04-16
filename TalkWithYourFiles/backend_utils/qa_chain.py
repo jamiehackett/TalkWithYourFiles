@@ -32,7 +32,7 @@ class QAChainRunner:
         self.param_controller = param_controller
 
 
-        self.model_name = None
+        self.model_name = 'gpt-3.5-turbo'
         self.top_related_chunks = None
         self.llm = None
 
