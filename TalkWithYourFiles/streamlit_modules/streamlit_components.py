@@ -30,7 +30,7 @@ def setup_page_configurations():
 
 def setup_header_area():
     ##### HEADER
-    st.title("Review your lease 🪄 ")
+    st.title("HELLO HEITOR 🪄 ")
 
 def setup_sidebar(flow_coordinator):
     ##### SIDEBAR
