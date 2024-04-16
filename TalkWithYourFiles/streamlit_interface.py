@@ -29,14 +29,14 @@ def main():
     setup_sidebar(flow_coordinator)
 
     # Setting up each tab for the GUI
-    tab0, tab1 = st.tabs(["Chat Bot", "QA Chain"])
+    tab0 = st.tabs(["Lease reviewer"])
 
 
     with tab0:
-        main_chat()
-    with tab1:
-        # Tab 1 QA Chain Over Files
         tab1_qa_chain_files(param_controller, flow_coordinator)
+    ##with tab1:
+        # Tab 1 QA Chain Over Files
+        #tab1_qa_chain_files(param_controller, flow_coordinator)
     #with tab2:
         #tab2_active_params(param_controller)
 
