@@ -29,7 +29,7 @@ def main():
     setup_sidebar(flow_coordinator)
 
     # Setting up each tab for the GUI
-    tab0, tab1, tab2 = st.tabs(["Chat Bot", "Lease reviewer"])
+    tab0, tab1 = st.tabs(["Chat Bot", "Lease reviewer"])
 
 
     with tab0:
