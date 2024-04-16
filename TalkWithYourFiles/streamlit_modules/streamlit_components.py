@@ -7,14 +7,14 @@ from .streamlit_chat import integrate_chain_into_chat
 def setup_page_configurations():
     ##### PAGE CONFIGURATIONS
     st.set_page_config(
-                    page_title="Talk With Your Files",
+                    page_title="Lease Reviewer",
                     page_icon="🧙‍♂️",
                     layout="wide", # centered or wide
                     initial_sidebar_state="expanded", #auto, expanded, collapsed
                     menu_items={
-                        'Get Help': 'https://github.com/Safakan',
-                        'Report a bug': "https://github.com/Safakan/TalkWithYourFiles",
-                        'About': "Open source LLM GUI app allowing interactions with files!"
+                        'Get Help': 'hackett@redhat.com',
+                        'Report a bug': "hackett@redhat.com",
+                        'About': "Open source LLM GUI app that will review uploaded documents with the view to helping renting for the first time."
                         }
                     )
 
@@ -30,15 +30,15 @@ def setup_page_configurations():
 
 def setup_header_area():
     ##### HEADER
-    st.title("Talk With Your Files 🪄 ")
+    st.title("Review your lease 🪄 ")
 
 def setup_sidebar(flow_coordinator):
     ##### SIDEBAR
-    st.sidebar.markdown("# Talk With Your Files 🪄")
-    st.sidebar.write("Hello! Here's an open-source tool for you. Query your files, modify the QA chain behaviour, monitor active parameters, feed the results into the chatbot if you prefer and debug the chatbot conversation. Stay tuned for the updates. Hope you love it! ❤️")
+    st.sidebar.markdown("# Review your lease 🪄")
+    st.sidebar.write("Hi, this is a demo application to show the power of langchain + streamlit on Red Hat OpenShift AI, currently this requires an OpenAI API key in order to work, future development using self hosted models on OpenShift AI model registry.")
 
-    st.sidebar.markdown('Documentation & codebase: [github.com/Safakan/TalkWithYourFiles](https://www.github.com/Safakan/TalkWithYourFiles)')
-    st.sidebar.write("Please visit to understand the app in depth.")
+    st.sidebar.markdown('Documentation & codebase: TODO')
+    st.sidebar.write("Please visit to understand the app in depth. TODO")
 
 
     st.sidebar.markdown("### Authorization")
