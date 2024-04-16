@@ -12,8 +12,8 @@ def setup_page_configurations():
                     layout="wide", # centered or wide
                     initial_sidebar_state="expanded", #auto, expanded, collapsed
                     menu_items={
-                        'Get Help': 'hackett@redhat.com',
-                        'Report a bug': "hackett@redhat.com",
+                        'Get Help': 'https://hackettwebservices.ie/',
+                        'Report a bug': "https://hackettwebservices.ie/",
                         'About': "Open source LLM GUI app that will review uploaded documents with the view to helping renting for the first time."
                         }
                     )
