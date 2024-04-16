@@ -30,7 +30,7 @@ def setup_page_configurations():
 
 def setup_header_area():
     ##### HEADER
-    st.title("LEASE REVIEWER")
+    st.title("DUBLIN TECH MEET UP DEMO")
 
 def setup_sidebar(flow_coordinator):
     ##### SIDEBAR
